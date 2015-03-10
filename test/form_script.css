@@ -1,0 +1,5 @@
+function updateEvents(events) { 
+    var day    = document.getElementById('day'); // The day div OBJECT 
+    var weekend   = document.getElementById('weekend'); // the weekend div OBJECT 
+    day.style.display  = ((events=='b') ¦¦ (events==''))?'block':'none'; // Assign style  
+    weekend.style.display = ((events=='b') ¦¦ (events==''))?'none':'block'; //properties to the objects 

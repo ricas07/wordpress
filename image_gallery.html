@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>My Image Gallery</title>
+		<script type="text/javascript" src="./js/image_gallery.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/image_gallery.css" />
+	</head>
+	<body>
+		<div id="main">
+			<div id="content">
+				<div id="header">
+					<h1>Welcome to my Image Gallery.</h1>
+				</div>
+				<div id="middle">
+					<p>Please click on a thumbnail below to see the image in full size.</p>
+					<div id="gallery">
+						<ul>
+							<li><a href="./images/jennifer1.jpg" title="Jennifer Lopez" onclick="showPic(this);return false;">Jennifer Lopez</a></li>
+							<li><a href="./images/gwen1.jpg" title="Gwen Stefani" onclick="showPic(this);return false;">Gwen Stefani</a></li>
+							<li><a href="./images/gwen2.jpg" title="Gwen Stafani 2" onclick="showPic(this);return false;">Gwen Stefani 2</a></li>
+							<li><a href="./images/scarlett1.jpg" title="Scarlett Johanson" onclick="showPic(this);return false;">Scarlett Johanson</a></li>
+							<li><a href="./images/shakira1.jpg" title="Shakira" onclick="showPic(this);return false;">Shakira</a></li>
+						</ul>
+					</div>
+					<div id="display">
+					<p id="stop_float"></p>
+					<img id="placeholder" src="./images/placeholder.png" />
+					</div>
+				</div>
+				<div id="footer">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

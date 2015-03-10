@@ -1,0 +1,97 @@
+* {
+margin:0;
+spacing:0;
+padding:0;
+border:0;
+}
+
+#main {
+background-color:#fff;
+width:100%;
+font-family:arial, helvetica, 'sans serif';
+}
+
+#content {
+width:800px;
+margin:auto;
+}
+
+#header {
+background-image:url('http://pezzep.info/images/header.png');
+background-repeat:no-repeat;		
+width:800px;
+height:130px;
+color:#fff;
+}
+
+#stage, #info{
+width:600px;
+margin:auto;
+text-align:center;
+color:#774f38;
+}
+
+#footer {
+width:800px;
+height:50px;
+}
+
+h1 {
+display:none;
+}
+
+#nav {
+position:relative;
+top: -102px;
+left: 420px;
+}
+
+#nav li{
+list-style:none;
+text-decoration:none;
+font-family: arial;
+font-size:22px;
+display:inline;
+margin:0 10px;
+}
+
+#info {
+background-image:url('http://pezzep.info/images/info_bg.png');
+background-repeat:no-repeat;	
+width:610px;
+height:260px;
+margin-top:50px;
+}
+
+#info h2{
+font-family: arial;
+font-size:22px;
+}
+
+#info li{
+list-style:none;
+text-decoration:none;
+}
+
+#available {
+position:relative;
+right:150px;
+top:31px;
+}
+
+#contact {
+position:relative;
+left:150px;
+top:-52px;
+}
+
+#footer {
+height:50px;
+background-color:#774f38;
+margin-top:50px;
+}
+
+#please {
+position:relative;
+top:50px;
+}

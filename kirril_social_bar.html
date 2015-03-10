@@ -1,0 +1,59 @@
+<html>
+<head>
+
+<style type="text/css">
+
+div#social_media_buttons {
+  width: 380px; 
+  margin:0 auto;
+  padding:left:5px;
+}
+ul#social_media_list {
+  float: left; 
+  list-style: none; 
+  margin: 5px 0 20px 0; 
+  padding: 0; 
+  width: 100%;
+}
+li.social_media_item  {
+  display: block; 
+  float: left; 
+  margin-right: 10px;
+}
+
+</style>
+
+</head>
+<body>
+<div id="social_media_buttons">
+
+<ul id="social_media_list">
+
+<!-- Like button with code for each post -->
+<li class="social_media_item">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=327749493971746";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div>
+</li>
+
+<!-- Twitter tweet button -->
+<li class="social_media_item">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="{permalink}" data-text="This chick is hot, check her out at" data-related="KirillWasHere">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</li>
+
+<!-- Twitter Follow button-->
+<li class="social_media_item">
+<a href="https://twitter.com/KirillWasHere" class="twitter-follow-button" data-show-count="false">Follow @KirillWasHere</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</li>
+
+</ul>
+</div>
