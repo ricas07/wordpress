@@ -20,15 +20,18 @@ define('DB_NAME', 'ricas07wordpres');
 
 
 /** MySQL database username */
-define('DB_USER', 'ricas07wordpres');
+//define('DB_USER', 'ricas07wordpres');
+define('DB_USER', 'ricardo');
 
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Player007!');
+//define('DB_PASSWORD', 'Player007!');
+define('DB_PASSWORD', '!6uaw19nf');
 
 
 /** MySQL hostname */
-define('DB_HOST', 'ricas07wordpres.db.9439016.hostedresource.com');
+//define('DB_HOST', 'ricas07wordpres.db.9439016.hostedresource.com');
+define('DB_HOST', 'localhost');
 
 
 /** Database Charset to use in creating database tables. */
@@ -91,7 +94,7 @@ define('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
